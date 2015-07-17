@@ -22,7 +22,6 @@ recipes:
 - sprout-git
 - sprout-git::default_editor
 - sprout-git::projects
-- sprout-git::git_scripts
 
 # development (rails)
 - sprout-rbenv
@@ -33,64 +32,60 @@ recipes:
 # apps (editors)
 - sprout-osx-apps::textmate_preferences
 - sprout-jetbrains-editors::rubymine
+- sprout-jetbrains-editors::intellij_ce
 
 node_attributes:
   sprout:
     git:
       domain: pivotal.io
       authors:
-        - initials: ah
-          name: Abhijit Hiremagalur
-          username: abhi
-        - initials: bc
-          name: Brian Cunnie
-          username: cunnie
-        - initials: jrhb
-          name: Jonathan Barnes
-        - initials: lw
-          name: Luke Winikates
-          username: lwinikates
-      projects:
-        -
-          name: sprout-wrap
-          url: https://github.com/pivotal-sprout/sprout-wrap.git
+        - initials: ed
+          name: Erich Douglass
+          email: erich.douglass@gmail.com
+        - initials: mtm
+          name: Molly T-M
+          email: molly.kayline@gmail.com
     terminal:
       default_profile: 'Pro'
     settings:
       clock_format: EEE MMM d  h:mm:ss a
     dock_preferences:
-      orientation: 'left'
+      orientation: 'right'
       auto_hide: true
       clear_apps: true
       tile_size: 35
       magnification: false
-  homebrew:
-    formulas:
-      - ctags-exuberant
-      - ag
-      - chromedriver
-      - imagemagick
-      - node
-      - pstree
-      - qt
-      - ssh-copy-id
-      - tmux
-      - tree
-      - watch
-      - wget
-      - rbenv-binstubs
-    casks:
-      - firefox
-      - flycut
-      - rowanj-gitx
-      - github-desktop
-      - google-chrome
-      - google-drive
-      - google-hangouts
-      - macvim
-      - skype
-      - textmate
-      - vagrant
-      - virtualbox
-      - xquartz
-      - xscope
+    homebrew:
+      formulae:
+        - ag
+        - chromedriver
+        - ctags-exuberant
+        - imagemagick
+        - memcached
+        - node
+        - pstree
+        - qt
+        - redis
+        - ssh-copy-id
+        - tmux
+        - tree
+        - watch
+        - wget
+        - rbenv-binstubs
+        - rbenv-gem-rehash
+      casks:
+        - atom
+        - firefox
+        - flycut
+        - rowanj-gitx
+        - github-desktop
+        - google-chrome
+        - google-drive
+        - google-hangouts
+        - macvim
+        - skype
+        - textmate
+        - vagrant
+        - virtualbox
+        - xquartz
+        - xscope
