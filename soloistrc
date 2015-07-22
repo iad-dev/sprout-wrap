@@ -47,6 +47,9 @@ node_attributes:
         - initials: mtm
           name: Molly T-M
           email: molly.kayline@gmail.com
+        - initials: mg
+          name: Max Gordon
+          email: gordonmaxc@gmail.com
     terminal:
       default_profile: 'Pro'
     settings:
@@ -60,21 +63,24 @@ node_attributes:
     homebrew:
       formulae:
         - ag
+        - android-sdk
         - chromedriver
         - ctags-exuberant
+        - gradle
         - imagemagick
+        - maven
         - memcached
         - node
         - pstree
         - qt
+        - rbenv-binstubs
+        - rbenv-gem-rehash
         - redis
         - ssh-copy-id
         - tmux
         - tree
         - watch
         - wget
-        - rbenv-binstubs
-        - rbenv-gem-rehash
       casks:
         - atom
         - firefox
