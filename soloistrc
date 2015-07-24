@@ -50,6 +50,9 @@ node_attributes:
         - initials: mg
           name: Max Gordon
           email: gordonmaxc@gmail.com
+        - initials: hf
+          name: Heather Farley
+          email: hrfarley@gmail.com
     terminal:
       default_profile: 'Pro'
     settings:
