@@ -53,6 +53,9 @@ node_attributes:
         - initials: hf
           name: Heather Farley
           email: hrfarley@gmail.com
+        - initials: sh
+          name: Sidney Ho
+          email: sid@sidho.me
     terminal:
       default_profile: 'Pro'
     settings:
