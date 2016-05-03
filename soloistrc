@@ -4,8 +4,8 @@ recipes:
 - sprout-base
 - sprout-base::bash_it
 - homebrew
-- homebrew::install_formulas
 - homebrew::install_casks
+- homebrew::install_formulas
 
 # apps
 - sprout-osx-apps::iterm2
@@ -34,7 +34,7 @@ recipes:
 # apps (editors)
 - sprout-osx-apps::textmate_preferences
 - sprout-jetbrains-editors::rubymine
-- sprout-jetbrains-editors::intellij_ce
+- sprout-jetbrains-editors::intellij
 
 node_attributes:
   sprout:
@@ -56,6 +56,12 @@ node_attributes:
         - initials: sh
           name: Sidney Ho
           email: sid@sidho.me
+        - initials: if
+          name: Ian Fisher
+          email: loktar@gmail.com
+        - initials: ms
+          name: Mike Stallard
+          email: mstallard@pivotal.io
     terminal:
       default_profile: 'Pro'
     settings:
