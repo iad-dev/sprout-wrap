@@ -7,6 +7,13 @@ SITE
       build-essential (>= 2.1.2)
 
 GIT
+  remote: https://github.com/iad-dev/sprout-iad
+  ref: master
+  sha: 2c4e330785a3ab9aa20c32ab33c5e91694216685
+  specs:
+    sprout-iad (0.1.0)
+
+GIT
   remote: https://github.com/pivotal-sprout/osx
   ref: master
   sha: 57820f0c0f4b08e9cff82a57a7489f9dcc9345f7
@@ -127,6 +134,7 @@ DEPENDENCIES
   sprout-base (>= 0)
   sprout-git (>= 0)
   sprout-homebrew (>= 0)
+  sprout-iad (>= 0)
   sprout-jetbrains-editors (>= 0)
   sprout-mysql (>= 0)
   sprout-osx-apps (>= 0)

@@ -72,41 +72,45 @@ node_attributes:
       clear_apps: true
       tile_size: 35
       magnification: false
-    homebrew:
-      formulae:
-        - ag
-        - android-sdk
-        - chromedriver
-        - ctags-exuberant
-        - gradle
-        - imagemagick
-        - maven
-        - memcached
-        - node
-        - pstree
-        - qt
-        - rbenv-binstubs
-        - rbenv-gem-rehash
-        - redis
-        - ssh-copy-id
-        - tmux
-        - tree
-        - watch
-        - wget
-      casks:
-        - atom
-        - firefox
-        - flycut
-        - java
-        - github-desktop
-        - google-chrome
-        - google-drive
-        - google-hangouts
-        - macvim
-        - rowanj-gitx
-        - skype
-        - textmate
-        - vagrant
-        - virtualbox
-        - xquartz
-        - xscope
+  homebrew:
+    formulas:
+      - ag
+      - android-sdk
+      - chromedriver
+      - ctags-exuberant
+      - gradle
+      - imagemagick
+      - maven
+      - memcached
+      - node
+      - pstree
+      - qt
+      - rbenv-binstubs
+      - rbenv-gem-rehash
+      - redis
+      - ssh-copy-id
+      - tmux
+      - tree
+      - watch
+      - wget
+    casks:
+      - atom
+      - firefox
+      - flycut
+      - github-desktop
+      - google-chrome
+      - google-drive
+      - google-hangouts
+      - java
+      - macvim
+      - rowanj-gitx
+      - skype
+      - textmate
+      - vagrant
+      - virtualbox
+      - xquartz
+      - xscope
+  bash_it:
+    custom_plugins:
+      sprout-iad:
+        - bash_it/custom/iad-aliases.bash
