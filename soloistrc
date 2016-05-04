@@ -76,6 +76,7 @@ node_attributes:
     formulas:
       - ag
       - android-sdk
+      - cf-cli
       - chromedriver
       - ctags-exuberant
       - gradle
@@ -83,6 +84,7 @@ node_attributes:
       - maven
       - memcached
       - node
+      - phantomjs
       - pstree
       - qt
       - rbenv-binstubs
@@ -93,7 +95,6 @@ node_attributes:
       - tree
       - watch
       - wget
-      - cf-cli
     casks:
       - atom
       - firefox
