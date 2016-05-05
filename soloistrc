@@ -88,7 +88,6 @@ node_attributes:
       - pstree
       - qt
       - rbenv-binstubs
-      - rbenv-gem-rehash
       - redis
       - ssh-copy-id
       - tmux
