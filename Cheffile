@@ -2,8 +2,8 @@
 
 site 'https://supermarket.getchef.com/api/v1'
 
-cookbook 'sprout-rbenv',
-  :github => 'pivotal-sprout/sprout-rbenv'
+cookbook 'sprout-chruby',
+  :github => 'pivotal-sprout/sprout-chruby'
 
 cookbook 'sprout-ruby',
   :github => 'pivotal-sprout/sprout-ruby'
