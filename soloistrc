@@ -5,6 +5,7 @@ recipes:
 - sprout-base::bash_it
 - homebrew
 - homebrew::install_casks
+- homebrew::install_taps
 - homebrew::install_formulas
 
 # apps
