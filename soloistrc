@@ -117,3 +117,4 @@ node_attributes:
     custom_plugins:
       sprout-iad:
         - bash_it/custom/iad-aliases.bash
+        - bash_it/custom/iad-git-aliases.bash

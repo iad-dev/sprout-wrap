@@ -9,9 +9,9 @@ SITE
 GIT
   remote: https://github.com/iad-dev/sprout-iad
   ref: master
-  sha: 3c188cb57d9b7747bcce69f6927ab3779d72cef7
+  sha: 73f4eacef657dc1d878757f2f42304478103dd8b
   specs:
-    sprout-iad (0.1.3)
+    sprout-iad (0.1.4)
 
 GIT
   remote: https://github.com/pivotal-sprout/osx
@@ -135,7 +135,7 @@ DEPENDENCIES
   sprout-chruby (>= 0)
   sprout-git (>= 0)
   sprout-homebrew (>= 0)
-  sprout-iad (>= 0)
+  sprout-iad (= 0.1.4)
   sprout-jetbrains-editors (>= 0)
   sprout-mysql (>= 0)
   sprout-osx-apps (>= 0)
