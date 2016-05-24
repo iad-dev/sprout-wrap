@@ -37,6 +37,9 @@ recipes:
 - sprout-jetbrains-editors::rubymine
 - sprout-jetbrains-editors::intellij
 
+# IAD
+- sprout-iad::invoker
+
 node_attributes:
   sprout:
     git:
