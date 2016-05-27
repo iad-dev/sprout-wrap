@@ -9,9 +9,9 @@ SITE
 GIT
   remote: https://github.com/iad-dev/sprout-iad
   ref: master
-  sha: 7d970fbc136a44082a9f66725df52bb97f794a3f
+  sha: 9eb44c7b33616e9426cc6149cdbbd4a3d3307543
   specs:
-    sprout-iad (0.1.6)
+    sprout-iad (0.1.8)
 
 GIT
   remote: https://github.com/pivotal-sprout/osx

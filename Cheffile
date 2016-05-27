@@ -42,4 +42,5 @@ cookbook 'sprout-jetbrains-editors',
   :github => 'pivotal-sprout/sprout-jetbrains-editors'
 
 cookbook 'sprout-iad',
+  #:path => '../sprout-iad'
   :github => 'iad-dev/sprout-iad'
