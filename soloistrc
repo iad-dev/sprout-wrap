@@ -26,7 +26,6 @@ recipes:
 - sprout-git::git_duet_rotate_authors
 
 # development (rails)
-- sprout-chruby
 - sprout-ruby
 - sprout-mysql
 - sprout-postgresql
