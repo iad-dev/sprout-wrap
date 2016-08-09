@@ -27,6 +27,7 @@ recipes:
 
 # development (rails)
 - sprout-ruby
+- sprout-rbenv
 - sprout-mysql
 - sprout-postgresql
 
