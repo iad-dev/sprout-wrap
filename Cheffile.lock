@@ -1,10 +1,22 @@
 SITE
   remote: https://supermarket.getchef.com/api/v1
   specs:
-    build-essential (2.2.4)
+    build-essential (6.0.3)
+      compat_resource (>= 12.10)
+      mingw (>= 1.1)
+      seven_zip (>= 0.0.0)
+    chef_handler (1.4.0)
+    compat_resource (12.10.7)
     dmg (2.3.0)
-    homebrew (2.0.5)
+    homebrew (2.1.0)
       build-essential (>= 2.1.2)
+    mingw (1.2.4)
+      compat_resource (>= 0.0.0)
+      seven_zip (>= 0.0.0)
+    seven_zip (2.0.1)
+      windows (>= 1.2.2)
+    windows (1.44.1)
+      chef_handler (>= 0.0.0)
 
 GIT
   remote: https://github.com/iad-dev/sprout-iad
@@ -23,9 +35,9 @@ GIT
 GIT
   remote: https://github.com/pivotal-sprout/sprout-base
   ref: master
-  sha: 343d6cb841f37d23b849e149a9e64496911ddf7e
+  sha: fe8719337275808d2a6a33b2d60561f36c2272a5
   specs:
-    sprout-base (0.3.0)
+    sprout-base (0.5.0)
       homebrew (>= 0.0.0)
 
 GIT
