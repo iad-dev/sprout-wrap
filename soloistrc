@@ -65,6 +65,8 @@ node_attributes:
         - initials: ms
           name: Mike Stallard
           email: mstallard@pivotal.io
+    mysql:
+      root_password: ''
     terminal:
       default_profile: 'Pro'
     settings:
