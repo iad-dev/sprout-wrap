@@ -17,6 +17,7 @@ git clone git@github.com:iad-dev/sprout-wrap.git
 cd sprout-wrap
 sudo gem install bundler
 bundle install --path vendor/bundle
+sudo gem update --system
 caffeinate bundle exec soloist
 ```
 
