@@ -40,17 +40,30 @@ node_attributes:
     git:
       domain: pivotal.io
       authors:
-        - initials: ah
-          name: Abhijit Hiremagalur
-          username: abhi
-        - initials: bc
-          name: Brian Cunnie
-          username: cunnie
-        - initials: jrhb
-          name: Jonathan Barnes
-        - initials: lw
-          name: Luke Winikates
-          username: lwinikates
+        - initials: ed
+          name: Erich Douglass
+          email: erich.douglass@gmail.com
+        - initials: mtm
+          name: Molly T-M
+          email: molly.kayline@gmail.com
+        - initials: mg
+          name: Max Gordon
+          email: gordonmaxc@gmail.com
+        - initials: hf
+          name: Heather Farley
+          email: hrfarley@gmail.com
+        - initials: sh
+          name: Sidney Ho
+          email: sid@sidho.me
+        - initials: if
+          name: Ian Fisher
+          email: loktar@gmail.com
+        - initials: ms
+          name: Mike Stallard
+          email: mstallard@pivotal.io
+        - initials: rh
+          name: Rachelle Holmgren
+          email: rholmgren@pivotal.io
       projects:
         -
           name: sprout-wrap
