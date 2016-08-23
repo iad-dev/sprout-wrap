@@ -58,15 +58,6 @@ GIT
       sprout-base (>= 0.0.0)
 
 GIT
-  remote: https://github.com/pivotal-sprout/sprout-jetbrains-editors
-  ref: master
-  sha: bcfcb62c1095a9ef33477f896ebda47918ad7618
-  specs:
-    sprout-jetbrains-editors (0.1.0)
-      homebrew (>= 0.0.0)
-      sprout-base (>= 0.0.0)
-
-GIT
   remote: https://github.com/pivotal-sprout/sprout-mysql
   ref: master
   sha: 12a264fe5418ae9fc6f5300fe56abec058f4a743
@@ -137,7 +128,6 @@ DEPENDENCIES
   sprout-git (>= 0)
   sprout-homebrew (>= 0)
   sprout-iad (>= 0)
-  sprout-jetbrains-editors (>= 0)
   sprout-mysql (>= 0)
   sprout-osx-apps (>= 0)
   sprout-osx-settings (>= 0)
