@@ -17,7 +17,7 @@ SITE
 GIT
   remote: https://github.com/iad-dev/sprout-iad
   ref: master
-  sha: fa45133ccc917093cc731b857043d85ea22c0891
+  sha: f1c5aa36b31cb086a140b55e8c0413607ec31436
   specs:
     sprout-iad (0.1.8)
 
@@ -51,15 +51,6 @@ GIT
   sha: 1d927c4fafd2c6f331f292375a6620099908a773
   specs:
     sprout-homebrew (0.3.0)
-      sprout-base (>= 0.0.0)
-
-GIT
-  remote: https://github.com/pivotal-sprout/sprout-jetbrains-editors
-  ref: master
-  sha: bcfcb62c1095a9ef33477f896ebda47918ad7618
-  specs:
-    sprout-jetbrains-editors (0.1.0)
-      homebrew (>= 0.0.0)
       sprout-base (>= 0.0.0)
 
 GIT
@@ -143,7 +134,7 @@ DEPENDENCIES
   sprout-base (>= 0)
   sprout-git (>= 0)
   sprout-homebrew (>= 0)
-  sprout-jetbrains-editors (>= 0)
+  sprout-iad (>= 0)
   sprout-mysql (>= 0)
   sprout-osx-apps (>= 0)
   sprout-osx-settings (>= 0)
@@ -152,3 +143,4 @@ DEPENDENCIES
   sprout-ruby (>= 0)
   sprout-ssh (>= 0)
   sprout-terminal (>= 0)
+

@@ -31,10 +31,6 @@ recipes:
 - sprout-mysql
 - sprout-postgresql
 
-# apps (editors)
-- sprout-osx-apps::textmate_preferences
-- sprout-jetbrains-editors::rubymine
-
 # IAD
 - sprout-iad::invoker
 

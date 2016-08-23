@@ -38,8 +38,9 @@ cookbook 'sprout-postgresql',
 cookbook 'sprout-ssh',
   :github => 'pivotal-sprout/sprout-ssh'
 
-cookbook 'sprout-jetbrains-editors',
-  :github => 'pivotal-sprout/sprout-jetbrains-editors'
+cookbook 'sprout-iad',
+  #:path => '../sprout-iad'
+  :github => 'iad-dev/sprout-iad'
 
 # mingw 1.0 and build-essential 4.0 add a dependency to compat_resource,
 # which does not load correctly with Rubygems 2.0.14, the Rubygems version
