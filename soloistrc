@@ -35,6 +35,9 @@ recipes:
 - sprout-osx-apps::textmate_preferences
 - sprout-jetbrains-editors::rubymine
 
+# IAD
+- sprout-iad::invoker
+
 node_attributes:
   sprout:
     git:
@@ -111,3 +114,8 @@ node_attributes:
       - virtualbox
       - xquartz
       - xscope
+  bash_it:
+     custom_plugins:
+       sprout-iad:
+         - bash_it/custom/iad-aliases.bash
+         - bash_it/custom/iad-git-aliases.bash

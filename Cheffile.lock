@@ -15,6 +15,13 @@ SITE
       chef_handler (>= 0.0.0)
 
 GIT
+  remote: https://github.com/iad-dev/sprout-iad
+  ref: master
+  sha: fa45133ccc917093cc731b857043d85ea22c0891
+  specs:
+    sprout-iad (0.1.8)
+
+GIT
   remote: https://github.com/pivotal-sprout/osx
   ref: master
   sha: 57820f0c0f4b08e9cff82a57a7489f9dcc9345f7
@@ -145,4 +152,3 @@ DEPENDENCIES
   sprout-ruby (>= 0)
   sprout-ssh (>= 0)
   sprout-terminal (>= 0)
-
