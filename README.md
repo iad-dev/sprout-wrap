@@ -1,6 +1,13 @@
 # sprout-wrap
 
-[![Build Status](https://travis-ci.org/pivotal-sprout/sprout-wrap.png?branch=master)](https://travis-ci.org/pivotal-sprout/sprout-wrap)
+# THE IAD FORK!!!
+
+Hey IAD friends. This fork is intended just to allow us to customize `soloistrc`. We should not be altering any other files in this repository.
+
+The intent is that we pull regularly from the upstream master branch of `sprout-wrap`. This is a manual process until we write some tooling
+to automate this (and thus delete this fork).
+
+Reminder for IAD folks: DO NOT ATTEMPT TO FIX THINGS IN THIS REPOSITORY. We have the `sprout-iad` cookbook for adding new dependencies.
 
 ## Prerequisites
 
