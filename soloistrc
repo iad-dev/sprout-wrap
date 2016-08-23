@@ -60,6 +60,9 @@ node_attributes:
         - initials: ms
           name: Mike Stallard
           email: mstallard@pivotal.io
+        - initials: rh
+          name: Rachelle Holmgren
+          email: rholmgren@pivotal.io
     mysql:
       root_password: ''
     terminal:
