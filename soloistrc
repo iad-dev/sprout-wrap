@@ -24,6 +24,10 @@ recipes:
 - sprout-git::default_editor
 - sprout-git::projects
 - sprout-git::git_scripts
+- sprout-git::git_duet
+- sprout-git::authors
+- sprout-git::git_duet_rotate_authors
+
 
 # development (rails)
 - sprout-rbenv
@@ -115,3 +119,4 @@ node_attributes:
        sprout-iad:
          - bash_it/custom/iad-aliases.bash
          - bash_it/custom/iad-git-aliases.bash
+         - bash_it/custom/env-variables.bash
