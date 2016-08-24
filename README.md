@@ -27,6 +27,18 @@ caffeinate ./sprout
 
 The `caffeinate` command will keep your computer awake while installing; depending on your network connection, soloist can take from 10 minutes to 2 hours to complete.
 
+## Resprout
+You can run `resprout` from the terminal to re-run the sprout-wrap. You may need to install gems on the system Ruby in order to resprout the first time. If you run into trouble, try the following:
+```
+cd workspace/sprout-wrap
+unalias sudo
+sudo gem install bundler
+bundle
+resprout
+```
+
+Once you have successfully resprouted, close and re-open your terminal. This will replace the sudo alias and get you any updates.
+
 ## Problems?
 
 ### clang error
