@@ -94,12 +94,13 @@ node_attributes:
       - node
       - pstree
       - qt
+      - rbenv-binstubs
+      - redis
       - ssh-copy-id
       - tmux
       - tree
       - watch
       - wget
-      - rbenv-binstubs
     casks:
       - firefox
       - flycut
