@@ -5,8 +5,8 @@ recipes:
 - sprout-base::bash_it
 - homebrew
 - homebrew::install_taps
-- homebrew::install_formulas
 - homebrew::install_casks
+- homebrew::install_formulas
 
 # apps
 - sprout-osx-apps::iterm2
@@ -89,6 +89,7 @@ node_attributes:
         head: true
       - ag
       - chromedriver
+      - gradle
       - imagemagick
       - node
       - pstree
@@ -102,12 +103,13 @@ node_attributes:
     casks:
       - firefox
       - flycut
-      - rowanj-gitx
       - github-desktop
       - google-chrome
       - google-drive
       - google-hangouts
+      - java
       - macvim
+      - rowanj-gitx
       - skype
       - textmate
       - vagrant
