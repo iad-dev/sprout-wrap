@@ -20,16 +20,16 @@ To provision your machine, open up Terminal and enter the following.
 First off, make sure that your sudo timeout is sufficient to last an entire sprout run. Open your sudoers file using the `visudo` command (it's very important that you use this and NOT regular vim - `visudo` will lock the file and, more importantly, perform grammar checks on the file. If you bork the sudoers file, then you won't be able to sudo to repair it).
 
 ```sh
-$ sudo visudo /etc/sudoers
+$ sudo visudo -f /etc/sudoers
 ```
 
 And add this line:
 
 ```
-Defaults    timestamp_timeout=15
+Defaults    timestamp_timeout=25
 ```
 
-This will set the timeout to *15 minutes*, which is our estimate for the time needed to run sprout. If you see failures in sprout due to write permission errors, it's likely due to the timeout window not being long enough to last an entire sprout run. 
+This will set the timeout to *25 minutes*, which is our estimate for the time needed to run sprout. If you see failures in sprout due to write permission errors, it's likely due to the timeout window not being long enough to last an entire sprout run. 
  
  ```sh
 sudo xcodebuild -license
