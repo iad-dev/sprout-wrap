@@ -107,19 +107,11 @@ node_attributes:
     casks:
       - atom
       - firefox
-      - flycut
-      - github-desktop
       - google-chrome
-      - google-drive
-      - google-hangouts
       - java
       - macvim
-      - rowanj-gitx
-      - skype
-      - textmate
       - vagrant
       - virtualbox
-      - xquartz
       - xscope
   bash_it:
      custom_plugins:
