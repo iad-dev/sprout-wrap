@@ -15,12 +15,28 @@ Download and install [XCode 7 from the App Store](https://itunes.apple.com/us/ap
 
 ## Installation
 
-To provision your machine, open up Terminal and enter the following:
+To provision your machine, open up Terminal and enter the following.
+
+First off, make sure that your sudo timeout is sufficient to last an entire sprout run. Open your sudoers file using the `visudo` command (it's very important that you use this and NOT regular vim - `visudo` will lock the file and, more importantly, perform grammar checks on the file. If you bork the sudoers file, then you won't be able to sudo to repair it).
 
 ```sh
+$ sudo visudo /etc/sudoers
+```
+
+And add this line:
+
+```
+Defaults    timestamp_timeout=15
+```
+
+This will set the timeout to *15 minutes*, which is our estimate for the time needed to run sprout. If you see failures in sprout due to write permission errors, it's likely due to the timeout window not being long enough to last an entire sprout run. 
+ 
+ ```sh
 sudo xcodebuild -license
 xcode-select --install
-git clone https://github.com/pivotal-sprout/sprout-wrap.git
+mkdir workspace
+cd workspace
+git clone https://github.com/iad-dev/sprout-wrap.git
 cd sprout-wrap
 caffeinate ./sprout
 ```
