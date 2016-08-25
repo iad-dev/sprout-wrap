@@ -37,6 +37,7 @@ recipes:
 
 # IAD
 - sprout-iad::invoker
+- sprout-iad::alfred
 
 node_attributes:
   sprout:
@@ -84,10 +85,12 @@ node_attributes:
   homebrew:
     taps:
       - universal-ctags/universal-ctags
+      - cloudfoundry/tap
     formulas:
       - name: universal-ctags
         head: true
       - ag
+      - cf-cli
       - chromedriver
       - gradle
       - imagemagick
@@ -102,6 +105,7 @@ node_attributes:
       - watch
       - wget
     casks:
+      - atom
       - firefox
       - flycut
       - github-desktop
