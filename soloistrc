@@ -95,6 +95,7 @@ node_attributes:
       - gradle
       - imagemagick
       - node
+      - phantomjs
       - pstree
       - qt
       - rbenv-binstubs
