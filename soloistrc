@@ -94,6 +94,7 @@ node_attributes:
       - chromedriver
       - gradle
       - imagemagick
+      - "homebrew/dupes/less"
       - node
       - phantomjs
       - pstree
