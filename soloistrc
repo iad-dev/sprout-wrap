@@ -37,7 +37,6 @@ recipes:
 
 # IAD
 - sprout-iad::invoker
-- sprout-iad::alfred
 
 node_attributes:
   sprout:
