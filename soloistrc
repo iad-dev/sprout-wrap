@@ -86,6 +86,7 @@ node_attributes:
     taps:
       - universal-ctags/universal-ctags
       - cloudfoundry/tap
+      - homebrew/dupes
     formulas:
       - name: universal-ctags
         head: true
