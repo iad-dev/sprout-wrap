@@ -37,6 +37,7 @@ recipes:
 
 # IAD
 - sprout-iad::invoker
+- sprout-iad::mysql-pivotal-user
 
 node_attributes:
   sprout:
