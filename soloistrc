@@ -68,6 +68,15 @@ node_attributes:
         - initials: rh
           name: Rachelle Holmgren
           email: rholmgren@pivotal.io
+        - initials: za
+          name: Zachary Anderson
+          email: zanderson@pivotal.io
+        - initials: dw
+          name: Deb Weller
+          email: dweller@pivotal.io
+        - initials: mw
+          name: Marc Weigum
+          email: mweigum@pivotal.io
       projects:
         -
           name: sprout-wrap
