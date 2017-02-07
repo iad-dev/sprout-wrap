@@ -3,6 +3,7 @@ recipes:
 # base (required by sprout)
 - sprout-base
 - sprout-base::bash_it
+- sprout-iad::homebrew_chef
 - homebrew
 - homebrew::install_taps
 - homebrew::install_casks
