@@ -120,7 +120,6 @@ node_attributes:
     casks:
       - atom
       - firefox
-      - google-chrome
       - java
       - macvim
       - vagrant
