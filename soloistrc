@@ -78,6 +78,9 @@ node_attributes:
         - initials: mw
           name: Marc Weigum
           email: mweigum@pivotal.io
+        - initials: ws
+          name: Whitney Schaefer
+          email: wschaefer@pivotal.io
       projects:
         -
           name: sprout-wrap
