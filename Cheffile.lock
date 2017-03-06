@@ -3,21 +3,20 @@ SITE
   specs:
     build-essential (3.2.0)
       seven_zip (>= 0.0.0)
-    chef_handler (1.4.0)
-    dmg (2.4.0)
-    homebrew (2.1.0)
-      build-essential (>= 2.1.2)
+    dmg (3.1.0)
+    homebrew (3.0.0)
     mingw (0.1.1)
       seven_zip (>= 0.0.0)
+    ohai (5.0.0)
     seven_zip (2.0.2)
       windows (>= 1.2.2)
-    windows (1.44.3)
-      chef_handler (>= 0.0.0)
+    windows (2.1.1)
+      ohai (>= 4.0.0)
 
 GIT
   remote: https://github.com/iad-dev/sprout-iad
   ref: master
-  sha: bbe9c1642c4fc51bd0451c704dd3cce100710eb5
+  sha: de94e6715dee28af25dd80f927fc41d9fcee0e45
   specs:
     sprout-iad (0.1.12)
 
@@ -39,7 +38,7 @@ GIT
 GIT
   remote: https://github.com/pivotal-sprout/sprout-git
   ref: master
-  sha: 3a3863df1de9eebcfc8078b693369ebe761258d4
+  sha: 90c32ad3e7b0d549716fd298475e8e0621dbc35c
   specs:
     sprout-git (0.3.1)
       homebrew (>= 0.0.0)
@@ -65,7 +64,7 @@ GIT
 GIT
   remote: https://github.com/pivotal-sprout/sprout-osx-apps
   ref: master
-  sha: 38899c86b2e841deb60fe5f9d3f294e73549f204
+  sha: abe74e25ac963746f6178cb8e371d51c8bbd9de0
   specs:
     sprout-osx-apps (0.2.0)
       dmg (>= 0.0.0)
