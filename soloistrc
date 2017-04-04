@@ -81,6 +81,9 @@ node_attributes:
         - initials: ws
           name: Whitney Schaefer
           email: wschaefer@pivotal.io
+        - initials: co
+          name: Colin OByrne
+          email: cobyrne@pivotal.io
       projects:
         -
           name: sprout-wrap
